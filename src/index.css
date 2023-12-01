@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  display:flex;
+  gap:100px;
+  margin:0 10rem ;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid skyblue;
+}
+
+.company{
+  display: flex;
+  flex-direction: column;
+  gap:30px
+}
+.singleCompany:hover {
+  color:skyblue ;
+  cursor: pointer;
+ 
+}
+
+.singleCompany{
+  display: flex;
+  gap:10px
+}
+.bar{
+  height: 20px;
+  width:2px;
+  background-color: rgb(251, 251, 251);
+}
+
+
+.details{
+
+  display: flex;
+  flex-direction: column;
+  gap:10px
+}
+
+
